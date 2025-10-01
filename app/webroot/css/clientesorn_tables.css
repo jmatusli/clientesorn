@@ -1,0 +1,211 @@
+#clientesorn table {
+  font-size:120%;
+  width:100%;
+}
+
+table.bordered {
+  border-collapse:collapse; 
+}
+
+
+table .hidden{
+  display:none;
+}
+  
+div.index table{
+  overflow:hidden;
+}
+
+tr.nomatchwarning
+{
+  background-color:#ffff00 !important;
+}
+
+tr.subaccountheader
+{
+  font-weight:bold;
+  background-color:#FFDCB5 !important;
+}
+tr.subaccountfooter
+{
+  font-weight:bold;
+  background-color:#FFE387 !important;
+}
+
+#clientesorn tr.topborder {
+  border-top:3px solid black;
+}
+
+#clientesorn tr .amount{
+  width:150px;
+}
+#clientesorn tr span.amount{
+  width:70%;
+}
+
+#clientesorn th.narrow{
+  width:10%;
+}
+
+#clientesorn .report table th, #clientesorn .report table td{
+  font-size:12px;
+  border:1px solid black;
+}
+
+#clientesorn table.grid th, #clientesorn table.grid td{
+  border:1px solid black;
+}
+
+.bordered tr th, 
+.bordered tr td
+{
+  font-size:0.7em;
+  border-width:1px;
+  border-style:solid;
+  border-color:#000000;
+  vertical-align:top;
+}
+
+td.bordered {
+  vertical-align:middle;
+  text-align:center;
+}
+
+.totalrow td{
+  font-weight:bold;
+  background-color:#BFE4FF;
+}
+
+td span.right{
+  font-size:1em;
+  display:inline-block;
+  width:65%;
+  float:right;
+  margin:0em;
+}
+
+#clientesorn td div.decimal {
+  width:60%;
+}
+
+#clientesorn td div.decimal input{
+  text-align:right;
+  width:100%;
+}
+
+#clientesorn td.right{
+  text-align:right;
+}
+
+#clientesorn td div.input.decimal{
+  display:inline-block;
+}
+
+#clientesorn td div.text input{
+  width:100%;
+}
+
+td.red {
+  color:#ff0000 !important;
+}
+
+.totalrow td{
+  font-weight:bold;
+  background-color:#BFE4FF;
+  border-top:3px solid black;
+}
+.totalrow.green td{
+  background-color:#b6ff88;
+}
+
+.totalcolumn {
+  background-color:#ffffad;
+}
+
+.separator {
+  background-Color:#000;
+}
+
+.separator, .totalrow .separator {
+  background-Color:#000;
+}
+.miniseparator {
+  width:1px;
+}
+
+#clientesorn #invoicesForClient td.amount {
+  width:120px;
+}
+
+#clientesorn #invoicesForClient td.amount div.input{
+  width:70%;
+  display:inline-block;
+}
+
+#clientesorn #invoicesForClient th,
+#clientesorn #invoicesForClient td
+{
+  font-size:80%;
+}
+
+
+tr#accountingRegisterTotals.match
+{
+  font-weight:bold;
+  background-color:#00ff00 !important;
+}
+
+
+tr#accountingRegisterTotals.nomatch
+{
+  font-weight:bold;
+  background-color:#ff0000 !important;
+}
+
+#clientesorn .sales table#productsForSale,
+#clientesorn #salesOrderProducts,
+#clientesorn #productsForSale{
+  font-size:0.85em;
+}
+#clientesorn #quotationProducts td div.decimal,
+#clientesorn #quotationProducts td div.decimal input,
+#clientesorn #salesOrderProducts td div.decimal,
+#clientesorn #productsForSale td div.decimal {
+  width:100%;
+}
+
+#clientesorn #salesOrderProducts td div.decimal input,
+#clientesorn #productsForSale td div.decimal input{
+  text-align:right;
+  width:70%;
+}
+
+#clientesorn #salesOrderProducts .currencyinput,
+#clientesorn #productsForSale .currencyinput{
+  width:120px;
+}
+
+#clientesorn #productsForRemission{
+  font-size:0.85em;
+}
+
+#clientesorn #productsForRemission td div.decimal {
+  width:100%;
+}
+
+#clientesorn #productsForRemission td div.decimal input{
+  text-align:right;
+  width:70%;
+}
+
+#clientesorn #productsForRemission .currencyinput{
+  width:120px;
+}
+
+
+#OrderAddSaleForm table select,
+#OrderAddSaleForm table input,
+#OrderEditSaleForm table select,
+#OrderEditSaleForm  table input{
+  width:100%;
+}

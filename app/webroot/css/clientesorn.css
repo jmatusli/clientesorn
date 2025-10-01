@@ -1,0 +1,882 @@
+/*
+	light #F77C54
+	original #FB4001
+	dark #C43201
+	*/
+	/*
+	input[type="text"]{
+		text-transform: uppercase;
+	}
+	*/
+	/*
+	specific container configuration from globalsupply
+	#container{
+		background:#1A7EFF;
+		color: #fff;
+		font-family:helvetica,verdana,'lucida grande',arial,sans-serif;
+		font-size:14px;
+		margin: 0 auto;
+		width:1600px;
+	}
+	*/
+  
+  h1 {
+    font-size:36px;
+  }
+  
+	#clientesorn{
+		background:#F77C54;
+		color: #fff;
+		font-family:Verdana,'Courier New','lucida grande',arial,helvetica,sans-serif;
+		font-size:14px;
+		margin: 0;
+	}
+	
+	#clientesorn label{
+		width:15%;
+		font-weight:bold;
+		vertical-align:top;
+	}
+	
+	#container form .container-fluid{
+		width:100%;
+	}
+  
+	#container form div.container div,
+	#container form div.container-fluid div{
+		padding:0;
+    clear:none!important;
+	}
+  
+  #container form div.container div.row,
+	#container form div.container-fluid div.row{
+		clear:both;
+	}
+	
+	#container form div.container p.clearleft,
+	#container form div.container-fluid p.clearleft,
+	#container form div.container div.clearleft,
+	#container form div.container-fluid div.clearleft {
+		clear:left !important;
+	}
+	
+	#container form div.container div.clearright,
+	#container form div.container-fluid div.clearright {
+		clear:right !important;
+	}
+	
+	#container form .container div h3,
+	#container form .container-fluid div h3{
+		margin-top:0em;
+	}
+	
+	#container .container label,
+	#container .container-fluid label{
+		width:30%;
+	}
+
+	#container div.container-fluid dl,
+  #container dl.dl100
+  {
+		width:100%;
+	}
+	
+	#container div.container-fluid dl dd,
+  #container dl.dl100 dd
+  {
+		float:left;
+		margin-left:40%;
+		width:50%;
+		
+	}
+	
+	#container .container .labelfirst label,
+	#container .container-fluid .labelfirst label{
+		width:80%;
+	}
+	
+	#container div.labelfirst label{
+		margin-left:0%;
+	}
+	#container div.labelfirst input[type=checkbox]{
+		width:5%;
+	}
+
+	#container div.label50 label{
+		width:50%;
+	}
+	#container div.label50 input{
+		width:50%;
+	}
+	
+	div.useractions {
+		background-color:#00FF00;
+	}
+	
+	.useractions .nav a:hover, .useractions .nav a:focus {
+		background-color: #0e0;
+		border-color: #428bca;
+	}
+	
+	.useractions .nav .open>a, .useractions .nav .open>a:hover, .useractions .nav .open>a:focus {
+		background-color: #0e0;
+		border-color: #428bca;
+	}
+	
+	.useractions .dropdown-menu {
+		background-color: #0e0;
+	}
+	
+	.lightgreen {
+		background-color:#C8FF91 !important;
+	}
+
+	#clientesorn div.modal-dialog label,
+	#clientesorn div.container-fluid label {
+		width:40%;
+	}
+  
+  #clientesorn div.modal-dialog select,
+  #clientesorn div.modal-dialog input{
+    width:55%;
+  }
+ 
+  #clientesorn div.modal-dialog td select,
+  #clientesorn div.modal-dialog td input{
+    width:100%;
+  }
+	
+	#clientesorn input[readonly='readonly']{
+		border:#ffffff 0px;
+	}
+	
+	#clientesorn div.machines div.input label,
+	#clientesorn div.machines div.input input 
+	{
+		width:50%;
+	}
+	#clientesorn div.machines div.input.checkbox input
+	{
+		width:100%;
+	}
+	
+  #container .checkboxleft label{
+		padding-left:10%!important;
+		width:40%!important;
+	}
+	#container .checkboxleft input{
+		width:10%!important;
+	}
+  #container .checkboxleftbig label{
+		padding-left:10%;
+		width:80% !important;
+	}
+	#container .checkboxleftbig input{
+		width:10%;
+	}
+	
+	#clientesorn input.nobox {
+		border:0px;
+		border-color:#FFFFFF;
+	}
+	
+  #clientesorn .allowed {
+		background-color:#B6FF00;
+	}
+	#clientesorn .redbg {
+		background-color:#FF6A00;
+	}
+	#clientesorn .greenbg {
+		background-color:#00FF00;
+	}
+	#clientesorn .greentext {
+		color:#00FF00;
+	}
+	#clientesorn .darkgreentext {
+		color:#008800;
+	}
+	#clientesorn .yellowbg {
+		background-color:#FFFF00;
+	}
+	
+	span.currency,
+	span.currencyleft
+	{
+		float:left;
+	}
+	
+	#clientesorn input.red{
+		color:#ff0000;
+	}
+		
+	
+	#clientesorn .amountright
+	{
+		float:right;
+		text-align:right;
+	}
+	
+	#clientesorn .italic {
+		font-style:italic;
+	}
+	
+	#clientesorn .fullwidth{
+		width:100%;
+		border-right:0;
+	}
+	
+  div.radioset {
+    width:100%;
+		float:left;
+		clear:none;
+  }
+	#AccountingCodeAddForm div.radioset,
+	#AccountingCodeEditForm div.radioset{
+		width:45%;
+		float:left;
+		clear:none;
+	}
+	
+  div.radioset legend,
+	#AccountingCodeAddForm div.radioset legend,
+	#AccountingCodeEditForm div.radioset legend{
+		margin-bottom:0px;
+		color:#000000;
+		font-size:120%;
+	}
+	
+  div.radioset input,
+	#AccountingCodeAddForm div.radioset input,
+	#AccountingCodeEditForm div.radioset input {
+		width:20%!important;
+		display:inline-block;
+		margin:0px;
+	}
+	
+  div.radioset label,
+	#AccountingCodeAddForm div.radioset label,
+	#AccountingCodeEditForm div.radioset label {
+		width:70%!important;
+		display:inline-block;
+		margin:0px;
+	}
+		
+	#clientesorn #OrderAddSaleForm div,
+	#clientesorn #OrderEditSaleForm div,
+	#clientesorn #OrderAddRemissionForm div,
+	#clientesorn #OrderEditRemissionForm div,
+	#clientesorn #CashReceiptAddForm div,
+	#clientesorn #CashReceiptEditForm div,
+	#clientesorn #ChequeAddForm div,
+	#clientesorn #ChequeEditForm div,
+	#clientesorn #TransferAddForm div,
+	#clientesorn #TransferEditForm div
+	{
+		padding:0em 0.5em;
+		margin:0 0 0.5em 0;
+	}
+	#clientesorn #OrderAddSaleForm  label,
+	#clientesorn #OrderEditSaleForm  label,
+	#clientesorn #OrderAddRemissionForm  label,
+	#clientesorn #OrderEditRemissionForm  label,
+	#clientesorn #CashReceiptAddForm  label,
+	#clientesorn #CashReceiptEditForm  label,
+	#clientesorn #ChequeAddForm label,
+	#clientesorn #ChequeEditForm label,
+	#clientesorn #TransferAddForm label,
+	#clientesorn #TransferEditForm label
+	{
+		width:25%;
+	} 
+	#clientesorn #OrderAddSaleForm .righttop input,
+	#clientesorn #OrderEditSaleForm .righttop input,
+	#clientesorn #OrderAddRemissionForm .righttop input,
+	#clientesorn #OrderEditRemissionForm .righttop input,
+	#clientesorn #CashReceiptAddForm .righttop input,
+	#clientesorn #CashReceiptEditForm .righttop input,
+	{
+		width:20%;
+	}
+	#clientesorn #OrderAddSaleForm .righttop label, #clientesorn #OrderAddSaleForm .righttop input,
+	#clientesorn #OrderEditSaleForm .righttop label, #clientesorn #OrderEditSaleForm .righttop input,
+	#clientesorn #OrderAddRemissionForm .righttop label, #clientesorn #OrderAddRemissionForm .righttop input,
+	#clientesorn #OrderEditRemissionForm .righttop label, #clientesorn #OrderEditRemissionForm .righttop input
+	{
+		width:40%;
+	}
+	#clientesorn #CashReceiptAddForm .righttop label, #clientesorn #CashReceiptAddForm .righttop input,
+	#clientesorn #CashReceiptEditForm .righttop label, #clientesorn #CashReceiptEditForm .righttop input
+	{
+		width:45%;
+	}
+	#clientesorn #OrderAddSaleForm .checkbox input,
+	#clientesorn #OrderEditSaleForm .checkbox input,
+	#clientesorn #OrderAddRemissionForm .checkbox input,
+	#clientesorn #OrderEditRemissionForm .checkbox input,
+	#clientesorn #CashReceiptAddForm .checkbox input,
+	#clientesorn #CashReceiptEditForm .checkbox input
+	{
+		float:left;
+		width:5%;
+		margin-left:25%;
+	}
+	
+	#clientesorn #CashReceiptAddForm input,
+	#clientesorn #CashReceiptEditForm input,
+	#clientesorn #CashReceiptAddForm textarea,
+	#clientesorn #CashReceiptEditForm textarea,
+	#clientesorn #CashReceiptAddForm select,
+	#clientesorn #CashReceiptEditForm select
+	{
+		font-size:100%;
+		padding:0;
+	}
+	
+	#clientesorn #invoicesForClient div.input,
+	#clientesorn #invoicesForClient div.input input,
+	#clientesorn #invoicesForClient div.input select
+	{
+		width:100%;
+		padding:0;
+	}
+	
+	#clientesorn .italic{
+		font-style:italic;
+	}
+	
+	#clientesorn div input.narrow{
+		width:30%;
+	}
+	
+	#clientesorn width60 {
+		width:60%;
+	}
+	
+	#clientesorn div.narrow{
+		width:80%;
+	}
+	
+	#clientesorn div.righttop dl {
+		width:100%;
+	}
+	#clientesorn div.righttop dt {
+		width:40%;
+		clear:left;
+		display:inline-block;
+	}
+	#clientesorn div.righttop dd {
+		width:40%;
+		display:inline-block;
+		margin:0;
+		clear:right;
+	}
+	
+	#clientesorn .checkbox label{
+		padding-left:0em;
+		width:15%;
+	}
+	
+	#clientesorn input{
+		width:60%;
+	}
+	
+	#clientesorn .checkbox input{
+		padding-left:0em;
+		width:30%;
+		margin-left:0%;
+	}
+	
+	#clientesorn .submit input{
+		width:10em;
+	}
+	
+	#clientesorn .centered{
+		text-align:center;
+	}
+	
+	#clientesorn a.btn-primary{
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	#clientesorn .bold{
+		font-weight:bold;
+	}
+	
+  #clientesorn .info{
+		background-color:#bbbbbb;
+    color:#0000ff;
+    font-weight:700;
+    font-size:1.4em;
+	}
+  
+	#clientesorn .warning{
+		background-color:#ff0000;
+    color:#fff;
+    font-weight:700;
+    font-size:1.4em;
+	}
+  
+  #clientesorn .pendingentry{
+		background-color:#ffd400;
+	}
+	
+  
+  #clientesorn .notallowed{
+		background-color:#ffa500;
+    color:#b00;
+    font-size:1.5em;
+	}
+	
+	#clientesorn .orderdate{
+		width:100px;
+	}
+	
+	#clientesorn .productionRuns.manipular form div{
+		margin:0;
+		padding:0;
+	}
+	
+	#productionRunDateManipulation {
+		display:none;
+	}
+	
+	#clientesorn div.form,
+	#clientesorn div.view,
+	#OrderAddSaleForm, 	#OrderAddSaleForm div,
+	#OrderEditSaleForm,	#OrderEditSaleForm div, 
+	#OrderAddPurchaseForm, #OrderEditPurchaseForm,
+	#ProductionRunAddForm,#ProductionRunEditForm, 
+	#CashReceiptAddForm,#CashReceiptEditForm, 
+	#clientesorn div.orders.view, #clientesorn div.productionRuns.view{
+		position:relative;
+	}
+	
+
+	#clientesorn .righttop {
+		position:absolute;
+		right:0%;
+		top:1.5em;
+		width:20%;
+		background-color:#aaffdd;
+	}
+	
+	#clientesorn .righttop.wide{
+		width:35%;
+	}
+	
+	#clientesorn .orders.view .righttop, 
+	#clientesorn div.productionRuns.view .righttop,
+	{
+		position:absolute;
+		right:5%;
+		top:1.5em;
+		width:20%;
+		background-color:#ffffff;
+	}
+	
+	#OrderAddSaleForm div.righttop{
+		width:25%;
+		top:0em;
+	}
+	
+	#OrderAddSaleForm div.actions.righttop 
+	{
+		width:15%;
+		background-color:#FFFFFF;
+		top:0em;
+	}
+	
+	#clientesorn #OrderAddPurchaseForm .righttop  {
+		right:0%;
+	}
+	
+	
+	#clientesorn .righttop label, #clientesorn .righttop input{
+		width:100%;
+	}
+	
+	#clientesorn form#CashReceiptAddForm , #clientesorn form#CashReceiptEditForm  {
+		margin-right:0;
+		width:100%;
+	}
+	#CashReceiptAddForm .righttop, #clientesorn #CashReceiptEditForm .righttop  {
+		width:30%;
+	}
+	
+	#clientesorn #ProductionRunAddForm .righttop, #clientesorn #ProductionRunEditForm .righttop  {
+		width:35%;
+	}
+	
+	#ProductionRunAddForm .righttop label, #ProductionRunAddForm .righttop input,
+	#ProductionRunEditForm .righttop label, #ProductionRunEditForm .righttop input
+	{
+		width:50%;
+	}
+	
+	#clientesorn .stockItems.report, 
+	#clientesorn .stockItems.inventory, 
+	#clientesorn .orders.form.sales, 
+	#clientesorn .stockMovements.report,
+	#clientesorn .stockItemReclassification 
+	{
+		width:100%;
+		border-right:0;
+	}
+
+	#clientesorn dt{
+    width:20em;
+    vertical-align:middle;
+    line-height:2em;
+    
+	}
+  #clientesorn dd{
+    margin-left:20em;
+    line-height:2em;
+    vertical-align:middle;
+    margin-top:-2em;
+	}
+	
+  #clientesorn dl.narrow dt {
+    width:10em;
+  }
+  #clientesorn dl.narrow dd{
+		margin-left:10em;
+	}
+	
+	#clientesorn #headerbar{
+		background:#C43201;
+	}	
+	#clientesorn #header h1{
+		background:#C43201;
+		display:inline-block;
+		position:relative;
+	}
+
+	#clientesorn #header h1 a{
+		background:#C43201;
+	}
+	
+	#clientesorn #headerbar nav{
+		background:#C43201;		
+		display:inline-block;
+		
+	}
+	#headerbar ul{
+		top:20px;
+		left:20px;
+	}
+	
+  .username{
+		display:inline-block;
+		position:relative;
+		float:right;
+		font-weight:bold;
+		color:#ffffff;
+		font-size:1.6em;
+		margin: 20px 20px 0px 0px;
+	}
+	
+  .print{
+		position:relative;
+		float:right;
+		margin: 40px 20px 0px 0px;
+	}
+	
+	.logout{
+		position:relative;
+		float:right;
+		margin: 40px 35px 0px 0px;
+	}
+	
+	#footer {
+		min-height:62px;
+	}
+	
+	#copyright {
+		float:left;
+	}
+	
+	#intersinaptico{
+		position:relative;
+		float:right;
+	}
+	
+	div.home {
+		float:left;
+		width:85%;
+		border-right:1px solid #666;
+		padding:10px 2%;
+	}
+	
+	/***************************************************************************************************************
+	/** add configuration options ************************************************************
+	/**************************************************************************************************************/
+
+	#configoptions h1 {
+		font-weight:bold;
+	}
+
+	#configoptions .col-md-4 div {
+		margin-left:5%;
+	}
+
+	#configoptions .col-md-4 div a {
+		font-size:1.2em;
+		text-decoration:none;
+	}
+
+	/***************************************************************************************************************
+	/** production runs ************************************************************
+	/**************************************************************************************************************/
+	
+	
+	div.productionRuns.view {
+		float:left;
+		clear:none;
+		width:55%;
+	}
+	/*
+	div.productionRuns.form.edit{
+		width:80%;
+	}
+	*/
+	div.stockRemovals.form, div.stockRemovals.view {
+		float:left;
+		clear:none;
+		width:55%;
+	}
+
+	div.stockRemovals.form.edit{
+		width:80%;
+	}
+
+	div.productionRuns.form  div.col-md-6{
+		float:left;
+		clear:none;
+	}
+	
+	#clientesorn div.productionRuns.form .col-md-6 label, div.productionRuns.view label{
+		/*float:left;
+		clear:none;*/
+		width:45%;
+	}
+	#clientesorn div.productionRuns.form input, div.productionRuns.view input{
+		/*float:left;
+		clear:none;*/
+		width:45%;
+	}
+	
+	#inventoryTotals {
+		margin-left:1em;
+		float:left;
+		clear:right;
+		width:20%;
+	}
+	
+	#StockItemReclasificarTaponesForm label {
+		width:25%;
+	}
+	
+	#clientesorn .sales,#clientesorn  .sales form{
+		padding-right:0;
+	}
+	
+	#clientesorn .sales form .col-md-5, #clientesorn .sales form .col-md-4, #clientesorn .sales form .col-md-3{
+		clear:none;
+	}
+	
+	#clientesorn .sales #inventoryTotals, 
+	#clientesorn .actions.productionrun #inventoryTotals,
+	#clientesorn .stockItemReclassification #inventoryTotals
+	{
+		width:100%;
+	}
+
+	#clientesorn .sales select, #clientesorn .sales input{
+		font-size:100%;
+	}
+	
+  #clientesorn .totals select, #clientesorn .totals input{
+		font-size:130%;
+	}
+  
+	#printinfo{
+		display:none;
+	}
+	
+	#clientesorn #sub-menu ul li {
+		float:left;
+		list-style-type:none;
+	}
+	#clientesorn #sub-menu ul li a {
+		font-weight:normal; 
+		text-decoration:none;
+	}
+	#clientesorn #sub-menu ul li.active>a{
+		font-weight:bold;
+		color:black;
+	}
+  
+	img.resize {
+		width:400px; /* you can use % */
+		height: auto;
+	}
+	
+	div, span {
+		font-size:1em;
+	}
+  .extraSmall {
+    font-size:0.6em;
+  }
+	.small {
+		font-size:0.9em;
+	}
+	.big{
+		font-size:1.5em;
+	}
+  
+	.left {
+    text-align:left;
+  }
+	.centered{
+		text-align:center;
+	}
+	.right{
+		text-align:right;
+	}
+	div.right{
+		padding-right:1em;
+	}
+	
+	span {
+		margin-left:0.5em;
+	}
+	.bold{
+		font-weight:bold;
+	}
+	.underline{
+		text-decoration:underline;
+	}
+  .red {
+    color:#f00;
+  }
+  .redBackground{
+    background-color:red!important;
+    color:#fff;
+  }
+  
+  .tooltipcontainer {
+  position: relative;
+  //display: inline-block;
+  //border-bottom: 1px dotted black;
+}
+
+.tooltipcontainer .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(230,250,90,0.5);
+  color: #3c3c3c;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-weight:700;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 70%;
+}
+
+.tooltipcontainer .tooltiptext.grand {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgba(230,250,90,0.5);
+  color: #3c3c3c;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-weight:700;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -40px;
+  left: 50%;
+}
+
+.tooltipcontainer:hover .tooltiptext {
+  visibility: visible;
+}
+ 
+.hidden{ 
+    display: none;
+} 
+
+#clientProcessMsg {
+  
+  position:absolute;
+  left:60px;
+  top:20px;
+  font-size:1.3em;
+  /*display:inline-block;*/
+  /*margin-left:5px;*/
+}
+
+.clientCategoryRadio label{
+  //padding-left:0em;
+  width:28%!important;
+  text-align:left;
+  //margin-left:0%;
+}
+.clientCategoryRadio input{
+  //padding-left:0em;
+  width:4%!important;
+  float:none;
+  //margin-left:0%;
+}
+
+button, input, optgroup, select, textarea {
+  margin-bottom:5px;
+}
+
+input[type=decimal],
+input[type=number]{
+  text-align:right;
+}
+
+.totalCell{
+  background-color:#b2d9ff;
+}
+@media screen{
+  .linkStyledText {
+    background:none!important;
+    border:0px!important;
+    display:inline!important;
+    text-shadow:none!important;
+    text-decoration:underline!important;
+    color:blue!important;
+    border-radius:0!important;
+    box-shadow:none!important;
+    font-weight:bold!important;
+    font-size:0.9em!important;
+    text-align:left!important;
+  }
+  .hiddenOnScreen {
+    display:none;
+  }
+}
+
+.width100 div,
+.width100 div input,
+.width100 div select{
+  width:100%!important;
+}
+
+@media only screen and (max-width: 600px) {
+  #content {
+    font-size:1.2em;
+  }
+  div.deliveries {
+    font-size:1.5em!important;
+  }
+}

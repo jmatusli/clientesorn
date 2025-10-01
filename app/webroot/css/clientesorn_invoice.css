@@ -1,0 +1,24 @@
+#clientesorn #invoicePrint {
+  font-family:Verdana,Tahoma,'Courier New','lucida grande',arial,helvetica,sans-serif;
+  font-size:12px;
+}
+#clientesorn #invoicePrint span{
+  margin-left:0px;
+}
+#clientesorn #invoicePrint table {
+  font-size:100%;
+  margin-bottom:2px;
+}
+#clientesorn #invoicePrint table tr th,
+#clientesorn #invoicePrint table tr td
+{
+  padding-left:0;
+  padding-right:0;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+#clientesorn #invoicePrint table tbody tr,
+#clientesorn #invoicePrint table tbody tr td{
+  background:none;
+  border-color:#fff;
+}
